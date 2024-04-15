@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(160, 146, 219);
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 chartreuse;
+    transition: 0.3s;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left:  30px;
+   }
+   
+  
+    
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgb(170, 20, 20);
+}
+
+.fab {
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 40px;
+    padding: 15px;
+    position: fixed;
+    right: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.fab:hover {
+    box-shadow: 0 4px 8px 0 rgba(5, 5, 5, 0.2);
+}
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(253, 244, 244);
+    padding: 1rem 1.5rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
