@@ -6,7 +6,7 @@ export const Header = () => {
     <nav className=  "navbar navbar-expand-lg navbar bg-primary" data-bs-theme="dark">
       <div className="container-fluid">
 
-        <NavLink className="navbar-brand" to='/'>MegaFilms</NavLink>
+        <NavLink className="navbar-brand" to='/media'>MegaFilms</NavLink>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
