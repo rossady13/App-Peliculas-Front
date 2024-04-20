@@ -23,6 +23,7 @@ export const ProductoraView = () => {
       Swal.close();
     }
   }
+  
   useEffect(() => {
     listarProductoras();
   }, []);
